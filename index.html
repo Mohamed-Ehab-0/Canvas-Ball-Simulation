@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Ball Simulation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: #121212; /* Elegant Dark Background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            display: block;
+        }
+        p {
+            color: #fff;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* Social Icons */
+        .social-icon {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+            transition: 0.3s ease-in-out;
+        }
+
+        .social-icon img {
+            width: 32px;
+            height: auto;
+            transition: 0.3s ease-in-out;
+        }
+
+        /* Hover Effects */
+        .social-icon:hover {
+            transform: scale(1.2);
+            box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        /* X (Twitter) */
+        .twitter {
+            bottom: 30px;
+            right: 30px;
+            background: #ffffff;
+        }
+
+        .twitter:hover {
+            background: #1da1f2; /* Twitter Blue */
+        }
+
+        /* LinkedIn */
+        .linkedin {
+            bottom: 30px;
+            left: 30px;
+            background: #ffffff;
+        }
+
+        .linkedin:hover {
+            background: #0077b5; /* LinkedIn Blue */
+        }
+
+        /* Ensure LinkedIn Logo Stays Visible */
+        .linkedin img {
+            filter: invert(0);
+        }
+
+        .linkedin:hover img {
+            filter: invert(1); /* Remove brightness(2) */
+        }
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <p>Click to Restart Simulation</p>
+
+    <!-- Social Icons with PNG Images -->
+    <a href="https://x.com/M7mdEhab0" target="_blank" class="social-icon twitter">
+        <img src="images/x-logo.png" alt="X Logo">
+    </a>
+
+    <a href="https://www.linkedin.com/in/mohamed-ehab-220491357/" target="_blank" class="social-icon linkedin">
+        <img src="images/linkedin-logo.png" alt="LinkedIn Logo">
+    </a>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
