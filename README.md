@@ -1,4 +1,4 @@
-# 🎾 Canvas Ball Simulation
+# Canvas Ball Simulation
 
 A visually captivating **ball physics simulation** using **HTML5 Canvas and JavaScript**. This project demonstrates realistic **gravity, friction, and collision mechanics** to create a dynamic bouncing ball effect.
 
