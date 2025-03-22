@@ -19,9 +19,6 @@ A visually captivating **ball physics simulation** using **HTML5 Canvas and Java
 - **JavaScript** for physics and animation logic.
 - **CSS** for styling and UI elements.
 
-## 📷 Preview
-![Canvas Ball Simulation](path/to/screenshot.png) *(Replace with an actual screenshot!)*
-
 🔗 **Live Demo:** https://mohamed-ehab-0.github.io/Canvas-Ball-Simulation/ 
 
 ## 📌 Follow Me
