@@ -25,5 +25,5 @@ A visually captivating **ball physics simulation** using **HTML5 Canvas and Java
 🔗 **Live Demo:** [Your GitHub Pages Link](#) *(Add if hosted!)*
 
 ## 📌 Follow Me
-[![Twitter]](https://x.com/M7mdEhab0)  
-[![LinkedIn](https://www.linkedin.com/in/mohamed-ehab-220491357/
+- [Twitter (X)](https://x.com/M7mdEhab0)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-ehab-220491357/)
